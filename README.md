@@ -22,6 +22,8 @@
 > Sheng-Wei Chan, Chia-Min Lin, Hsin-Jui Pan, Ching-Yu Tsai, Chih-Hsiang Yang, Yung-Che Wang, Jen-Shiun Chiang\*
 > Department of Electrical and Computer Engineering, Tamkang University, New Taipei City, Taiwan
 > Submitted to **IET ICETA 2026**. (\*Corresponding author)
+> 📄 Paper: **[arXiv:2607.12681](https://arxiv.org/abs/2607.12681)**
+
 
 The core idea: the C2PSA block in YOLO26 applies position-sensitive self-attention over spatial tokens, incurring **O(N²)** cost that scales quadratically with token count and constrains its use in lightweight edge deployments. MambaPSA substitutes this with a selective state-space model that captures long-range dependencies in **O(N)**, making the module more efficient — particularly on CPU, where attention is a bottleneck.
 
@@ -139,15 +141,16 @@ This repository includes several configurations to reproduce the ablation study:
 If you find this work useful, please cite:
 
 ```bibtex
-@inproceedings{mambapsa2026,
-  title     = {MambaPSA: A Mamba-based Replacement for C2PSA in YOLO26},
-  author    = {Chan, Sheng-Wei and Lin, Chia-Min and Pan, Hsin-Jui and
-               Tsai, Ching-Yu and Yang, Chih-Hsiang and Wang, Yung-Che and
-               Chiang, Jen-Shiun},
-  booktitle = {International Conference on Engineering, Technology and Applications (IET ICETA)},
-  year      = {2026},
-  note      = {Submitted},
-  organization = {Tamkang University}
+@article{mambapsa2026,
+  title         = {MambaPSA: A Mamba-based Replacement for C2PSA in YOLO26},
+  author        = {Chan, Sheng-Wei and Lin, Chia-Min and Pan, Hsin-Jui and
+                   Tsai, Ching-Yu and Yang, Chih-Hsiang and Wang, Yung-Che and
+                   Chiang, Jen-Shiun},
+  journal       = {arXiv preprint arXiv:2607.12681},
+  year          = {2026},
+  eprint        = {2607.12681},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV}
 }
 ```
 
