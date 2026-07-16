@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2607.12681"><img src="https://img.shields.io/badge/arXiv-2607.12681-b31b1b" alt="arXiv"></a>
   <a href="#"><img src="https://img.shields.io/badge/Paper-IET%20ICETA%202026-blue" alt="Paper"></a>
   <a href="#"><img src="https://img.shields.io/badge/Framework-Ultralytics%20YOLO26-green" alt="Framework"></a>
   <a href="#"><img src="https://img.shields.io/badge/License-AGPL--3.0-orange" alt="License"></a>
